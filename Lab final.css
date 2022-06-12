@@ -56,3 +56,26 @@
   .menu-description {
     padding: 10px;
   }
+  @media only screen and (max-width: 960px) {
+    /* For tablets: */
+    .menu-container {
+      flex-wrap: wrap;
+    }
+    .menu-1,
+    .menu-2 {
+      width: 45%;
+    }
+    #sushi {
+      width: 95%;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .menu-container {
+      flex-wrap: wrap;
+    }
+    .menu {
+      width: 100%;
+    }
+  }
